@@ -1,7 +1,15 @@
+import { useState } from 'react';
+import Questions from '../components/Questions';
+
 export default function Quiz() {
-    return (
-        <div id="quiz">
-            <p>Questions will be rendered here</p>
-        </div>
-    )
+    
+  const [userAnswers, setUserAnswers] = useState([]);
+
+  const activeQuestion = userAnswers.length;
+
+  return (
+    <div id="quiz">
+      <Questions />
+    </div>
+  );
 }

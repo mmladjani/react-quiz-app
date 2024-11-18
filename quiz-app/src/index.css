@@ -105,6 +105,14 @@ header h1 {
   margin: 0;
 }
 
+.question-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 #question progress::-webkit-progress-bar {
   background: #6a558a;
   border-radius: 24px;

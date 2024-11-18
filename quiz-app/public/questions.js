@@ -1,4 +1,4 @@
-const QUESTIONS_DUMMY_DATA = [
+export default [
     {
       id: 'q1',
       text: 'Which of the following definitions best describes React.js?',
@@ -70,5 +70,3 @@ const QUESTIONS_DUMMY_DATA = [
       ],
     },
   ];
-
-  export default QUESTIONS_DUMMY_DATA;
